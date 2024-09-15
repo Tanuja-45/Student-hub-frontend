@@ -1,0 +1,46 @@
+.header-container {
+  display: flex;
+  align-items: center;
+  background-color: #6c757d; /* Secondary color */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 8px 16px; /* Reduced padding for a smaller height */
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  width: 40px; /* Smaller logo size */
+  height: auto;
+  border-radius: 50%;
+}
+
+.title {
+  margin-left: 12px; /* Space between logo and title */
+  color: white;
+  font-size: 1.5rem; /* Reduced font size */
+  font-weight: bold;
+}
+
+.nav {
+  display: flex;
+  margin-left: auto; /* Pushes nav items to the right */
+  padding: 0;
+  list-style: none;
+}
+
+.nav-item {
+  margin-left: 12px; /* Space between nav items */
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  padding: 8px 12px; /* Reduced padding for smaller height */
+  font-size: 0.875rem; /* Reduced font size */
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: #dcdcdc; /* Hover effect */
+}
