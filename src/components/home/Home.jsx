@@ -6,7 +6,7 @@ function Home() {
     <div>
       {/* First Row: Welcome Section */}
       <div className="welcome-section">
-        {/* Left Text Section */}
+     
         <div className="welcome-text">
           <h1>Empower Your Academic Journey.</h1>
           <p>
